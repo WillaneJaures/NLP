@@ -1,0 +1,242 @@
+{
+    "intents": [
+      {
+        "tag": "salutations",
+        "patterns": [
+          "Bonjour",
+          "Hey",
+          "Hello",
+          "y-a t'il quelqu'un?",
+          "Salem",
+          "Salut"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Bonjour",
+          "Bonjour, qu'est ce que je peux faire pour vous",
+          "Bonjour, coment puis-je vous aider?"
+        ]
+      },
+      {
+        "tag": "Aurevoir",
+        "patterns": ["Aurevoir", "A plus tard", "A la prochaine"],
+        "responses": [
+          "Aurevoir, Merci pour votre visite",
+          "Passez une bonne journee",
+          "Aurevoir, Je suis la si vous avez d'autres questions"
+        ]
+      },
+      {
+        "tag": "Remerciements",
+        "patterns": ["Merci", "Merci beaucoup", "Merci enormement", "Thank's a lot!"],
+        "responses": ["Content d'aider", "je suis la pour vous aider", "Le plasir est pour moi"]
+      },
+      {
+        "tag": "Question1",
+        "patterns": [
+          "Quand ont lieu les premiers Jeux Olympiques?",
+          "En quelle annee a eu lieu les premiers Jeux Olympiques?",
+          "Quand est ce s'est deroule les premiers JO?"
+          
+        ],
+        "responses": [
+          "Les premiers JO se sont deroules du 6 au 15 Avril 1986 a Athenes",
+          "Les premiers JO se sont passes du 6 au 15 Avril 1986 a Athenes"
+        ]
+      },
+      {
+        "tag": "Question2",
+        "patterns": [
+          "Ou se sont deroules les derniers Jeux Olympiques?",
+          "Les derniers Jeux Olympique se sont passes ou?"
+          
+        ],
+        "responses": [
+          "Les derniers Jeux Olympique se sont deroules en France",
+          "Les derniers JO se sont passes en France"
+        ]
+      },
+      {
+        "tag": "Question3",
+        "patterns": [
+          "Quel est le pays avec le plus grand nombre de medailles au JO?",
+          "Quel pays a avoir gagne le plus de medaille?"
+          
+        ],
+        "responses": [
+          "Le pays avec le plus grand nombre de medailles sont les Etats-unins etant d'ete et d'hiver",
+          "Les Etats-Unis, etant d'ete et d'hiver"
+        ]
+      },
+      {
+        "tag": "Question4",
+        "patterns": [
+          "Combien de medailles de Senegal a deja gagne au JO?",
+          "Le senegal a deja gagne combien de medailles ? ",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Le senegal a remporte une seul medaille olympiques",
+          "a Seoul, le senegal a remporte son unique medailles olympiques"
+        ]
+      },
+      {
+        "tag":"Question5",
+        "patterns":[
+          "Ou et quand se passeront les prochaines JO?",
+          "Les prochains JO vont se derouler ou et quand?"
+        
+        ],
+        "responses":[
+          "Les prochains JO se derouleront a Los Angeles en 2028",
+          "Les prochains Jeux Olympiques auront lieu a Los Angeles en 2028"
+        ]
+      },
+      {
+        "tag":"Question6",
+        "patterns":[
+          "Combien d'epreuves et sport comportent les Jeux Olympiques?",
+          "Combien existe t'il d'epreuves et sport aux JO"
+        ],
+        "responses":[
+          "Les jeux comportent 329 epreuves dans 39 sports?",
+          "Les JO comportent 329 epreuves dans 39 sports"
+
+        ]
+      },
+      {
+        "tag":"Question7",
+        "patterns":[
+          "Combien de fois la Team USA de Basket a remporte les JO?",
+          "La team USA de basket a remporte les Jeux olympiques combien de fois?"
+        ],
+        "responses":[
+          "Depuis 1936 les USA ont remporte 16 des 19 tournois olympiques auxquels ils ont participe",
+          "Les Etats-Unis ont remportes 16 Finals JO"
+
+        ]
+      },
+      {
+        "tag":"Question8",
+        "patterns":[
+          "A combien de JO le Senegal a participe",
+          "Le Senegal a participe a combien de JO"
+        ],
+        "responses":[
+          "Le Sénégal a participé à 16 éditions consécutives des Jeux Olympiques d'été",
+          "Le senegal a participe a 16 editions des JO d'ete"
+
+        ]
+      },
+      {
+        "tag":"Question9",
+        "patterns":[
+          "Qui est Michael Phelps",
+          "C'est qui Michael Phelps"
+        ],
+        "responses":[
+          "Michael Phelps est un nageur americain legendaire, considere comme l'un des plus grands athletes olympiques de tous les temps. Ne le 30 juin 1985 a Baltimore, dans le Maryland, il detient le record du plus grand nombre de medailles olympiques, avec 28 medailles, dont 23 en or.",
+          "Michael Phelps est un nageur americain legendaire, considere comme l'un des plus grands athletes olympiques de tous les temps."
+
+        ]
+      },
+      {
+        "tag":"Question10",
+        "patterns":[
+          "A combien de medailles Michael Phelps a t'il gagne?",
+          "Michael Phelps a gagne combien de medailles"
+        ],
+        "responses":[
+          "Michael Phelps a gagne 28 medailles, dont 23 en or",
+          "Il a gagne 28 medailles, dont 23 en or"
+
+        ]
+      },
+      {
+        "tag":"Question11",
+        "patterns":[
+          "Qui est Usain Bolt",
+          "C'est qui Usain Bolt"
+        ],
+        "responses":[
+          "Usain Bolt est un ancien sprinteur jamaicain, largement considere comme l'un des plus grands athletes de l'histoire de l'athletisme.Il detient les records mondiaux du 100 metres (9,58 secondes) et du 200 metres (19,19 secondes), etablis en 2009 lors des Championnats du monde a Berlin.",
+          "Usain Bolt est un ancien sprinteur jamaïcain, largement considéré comme l'un des plus grands athlètes de l'histoire de l'athlétisme. Ne le 21 aout 1986 a Sherwood Content, en Jamaique, Bolt est celebre pour sa domination sur les distances du 100 metres et du 200 metres."
+
+        ]
+      },
+      {
+        "tag":"Question12",
+        "patterns":[
+          "Il y'a qu'une seule langue au Senegal?",
+          "y-a t'il qu'une seule langue au Senegal"
+        ],
+        "responses":[
+          "Non"
+
+        ]
+      },
+      {
+        "tag":"Question13",
+        "patterns":[
+          "Il neige au Senegal",
+          "Neige t'il au Senegal"
+        ],
+        "responses":[
+          "Non"
+        ]
+      },
+      {
+        "tag":"Question14",
+        "patterns":[
+          "Il y'a eu des JO en 2022?",
+          "Des JO se sont deroules en 2022?"
+        ],
+        "responses":[
+          "Non"
+        ]
+      },
+      {
+        "tag":"Question15",
+        "patterns":[
+          "Combien de medailles Usain a gagne?",
+          "Usain Bolt a gagne combien de medaille?"
+        ],
+        "responses":[
+          "Usain Bolt a remporte 8 medailles d'or olympiques",
+          "Bolt a remporte 8 medailles d'or olympiques"
+        ]
+      },
+      {
+        "tag":"Question16",
+        "patterns":[
+          "Quel athlete a le plus grand nombre de medailles olympiques"
+          
+        ],
+        "responses":[
+          "L'athlete qui detient de plus grand de medailles olympiques est le nageur americain Michael Phelps, avec 23 medailles d'or, 3 medailles d'argent, 2 medailles de bronze"
+        ]
+      },
+      {
+        "tag":"Question17",
+        "patterns":[
+          "Le tire a l'arc est une discipline aux Jeux Olympiques?"
+          
+        ],
+        "responses":[
+          "Oui"
+        ]
+      },
+      {
+        "tag":"Question18",
+        "patterns":[
+          "combien de types de jeux olympiques existe t-il?",
+          "il existe combien de types de Jeux Olympiques?"
+        ],
+        "responses":[
+          "Il existe 4 types de jeux Olympiques: Les jeux Olympiques D'ete, Jeux Olympiques d'hiver, Les Jeux Paralympiques, Les Jeux Olympiques de la jeunesse"
+        ]
+      }
+      
+
+    ]
+  }
